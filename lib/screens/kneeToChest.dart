@@ -173,7 +173,7 @@ class _KneeToChestState extends State<KneeToChest> {
                   ],
                 ),
 
-                Row(
+                Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

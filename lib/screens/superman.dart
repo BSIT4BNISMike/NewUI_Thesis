@@ -163,7 +163,7 @@ class _SupermanState extends State<Superman> {
                   ],
                 ),
 
-                Row(
+                Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

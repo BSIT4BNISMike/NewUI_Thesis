@@ -187,7 +187,7 @@ class _BicycleCrunchState extends State<BicycleCrunch> {
                   ],
                 ),
 
-                Row(
+                Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

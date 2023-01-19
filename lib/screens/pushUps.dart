@@ -166,7 +166,7 @@ class _PushUpsState extends State<PushUps> {
                   ],
                 ),
 
-                Row(
+                Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

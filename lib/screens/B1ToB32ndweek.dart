@@ -33,7 +33,6 @@ class _B1toB32ndState extends State<B1toB32nd> {
 
     return Scaffold(
       appBar: AppBar(
-     
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back,

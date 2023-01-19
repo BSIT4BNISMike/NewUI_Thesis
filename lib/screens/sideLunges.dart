@@ -176,7 +176,7 @@ class _SideLungesState extends State<SideLunges> {
                   ],
                 ),
 
-                Row(
+                Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

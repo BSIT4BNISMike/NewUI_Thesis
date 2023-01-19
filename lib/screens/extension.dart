@@ -157,7 +157,7 @@ class _ExtensionState extends State<Extension> {
                   ],
                 ),
 
-                Row(
+                Row( mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

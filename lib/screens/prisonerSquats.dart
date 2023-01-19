@@ -167,6 +167,7 @@ class _PrisonerSquatsState extends State<PrisonerSquats> {
                 ),
 
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

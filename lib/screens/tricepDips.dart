@@ -156,7 +156,7 @@ class _TricepDipsState extends State<TricepDips> {
                   ],
                 ),
 
-                Row(
+                Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

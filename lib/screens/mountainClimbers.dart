@@ -166,7 +166,7 @@ class _MountainClimbersState extends State<MountainClimbers> {
                   ],
                 ),
 
-                Row(
+                Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

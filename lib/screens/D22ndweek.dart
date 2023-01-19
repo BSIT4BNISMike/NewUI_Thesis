@@ -817,7 +817,8 @@ class _D22ndweekState extends State<D22ndweek> {
                             pushUpsFeedback.length == numOfExercises &&
                             supermanFeedback.length == numOfExercises &&
                             plankFeedback.length == numOfExercises &&
-                            jumpingJacksFeedback.length == numOfExercises) {
+                            jumpingJacksFeedback.length == numOfExercises)
+                        {
                           Navigator.push(
                             context,
                             MaterialPageRoute(

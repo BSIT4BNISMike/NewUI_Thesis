@@ -177,7 +177,7 @@ class _CobraPoseState extends State<CobraPose> {
                   ],
                 ),
 
-                Row(
+                Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

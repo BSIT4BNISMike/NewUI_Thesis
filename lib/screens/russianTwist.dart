@@ -156,7 +156,7 @@ class _RussianTwistState extends State<RussianTwist> {
                   ],
                 ),
 
-                Row(
+                Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

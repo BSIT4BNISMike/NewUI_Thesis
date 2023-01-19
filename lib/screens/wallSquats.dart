@@ -158,6 +158,7 @@ class _WallSquatsState extends State<WallSquats> {
                 ),
 
                 Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,

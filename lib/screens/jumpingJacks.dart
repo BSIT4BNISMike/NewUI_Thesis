@@ -166,7 +166,7 @@ class _JumpingJacksState extends State<JumpingJacks> {
                   ],
                 ),
 
-                Row(
+                Row(mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
                     Container(
                       width: 145,
