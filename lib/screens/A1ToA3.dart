@@ -31,7 +31,6 @@ class _A1State extends State<A1> {
 
     return Scaffold(
       appBar: AppBar(
-     
         leading: IconButton(
           icon: Icon(
             Icons.arrow_back,
