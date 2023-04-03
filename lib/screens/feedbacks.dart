@@ -58,21 +58,47 @@ class _FeedbacksState extends State<Feedbacks> {
             child: Column(
               children: [
                 Padding(
-                  padding: const EdgeInsets.only(left: 10, right: 10),
-                  child: Row(
-                    children: [
-                      Text(
-                        "Upload",
-                        style: Standards.fontStyles["smallerMain"],
-                      ),
-                      const Spacer(),
-                      Text(
-                        "Feedback",
-                        style: Standards.fontStyles["smallerMain"],
-                      )
-                    ],
-                  ),
-                ),
+                    padding: const EdgeInsets.only(left: 10, right: 10),
+                    child: Column(
+                      children: [
+                        SizedBox(
+                            child: Column(
+                          children: [
+                            Text(
+                              "Please perform the exercises correctly!",
+                              style: Standards.fontStyles["notelabel"],
+                            ),
+                            Text(
+                              "Your exercises will be counted in the progress bar even",
+                              style: Standards.fontStyles["notelabel"],
+                            ),
+                            Text(
+                              "you performed it incorrectly but the result in your ",
+                              style: Standards.fontStyles["notelabel"],
+                            ),
+                            Text(
+                              "body might be different from your expected outcome",
+                              style: Standards.fontStyles["notelabel"],
+                            ),
+                          ],
+                        )),
+                        SizedBox(
+                          child: Row(
+                            children: [
+                              Text(
+                                "Upload",
+                                style: Standards.fontStyles["smallerMain"],
+                              ),
+                              const Spacer(),
+                              Text(
+                                "Feedback",
+                                style: Standards.fontStyles["smallerMain"],
+                              )
+                            ],
+                          ),
+                        ),
+                      ],
+                    )),
                 const Divider(color: Colors.black),
                 ListView.builder(
                   shrinkWrap: true,

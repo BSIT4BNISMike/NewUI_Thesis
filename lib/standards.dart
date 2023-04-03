@@ -124,5 +124,11 @@ class Standards {
       fontStyle: FontStyle.italic,
       color: colors["primaryColorDark"],
     ),
+    "notelabel": GoogleFonts.poppins(
+      fontSize: 12.00,
+      fontWeight: FontWeight.bold,
+      fontStyle: FontStyle.italic,
+      color: colors["blackColor"],
+    ),
   };
 }
