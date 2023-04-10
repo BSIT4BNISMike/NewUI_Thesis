@@ -69,15 +69,15 @@ class _FeedbacksState extends State<Feedbacks> {
                               style: Standards.fontStyles["notelabel"],
                             ),
                             Text(
-                              "Your exercises will be counted in the progress bar even",
+                              "Your exercises will be counted in the progress bar",
                               style: Standards.fontStyles["notelabel"],
                             ),
                             Text(
-                              "you performed it incorrectly but the result in your ",
+                              "even you performed it incorrectly but the result in",
                               style: Standards.fontStyles["notelabel"],
                             ),
                             Text(
-                              "body might be different from your expected outcome",
+                              "your body might be different from your expected outcome",
                               style: Standards.fontStyles["notelabel"],
                             ),
                           ],
