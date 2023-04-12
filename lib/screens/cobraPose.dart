@@ -113,13 +113,12 @@ class _CobraPoseState extends State<CobraPose> {
                           ),
                         ),
                       ],
-                    ),
-                    Row(
+                    ), 
+                     Row(
                       children: [
                         Expanded(
                           child: Text(
-                            'NOTE: Please be sure to record yourself doing this workout with your left side part is seen in the camera.',
-                            style: Standards.fontStyles["tinyWhite"],
+                            '',
                           ),
                         ),
                       ],
