@@ -38,8 +38,8 @@ class _ImageProcessingState extends State<ImageProcessing> {
         path: image.path,
         numResults:
             3, //the amount of categories our neural network can predict (here no. of Body Types)
-        threshold: 0.3,
-        imageMean: 0.0,
+        threshold: 0.5,
+        imageMean: 127.5,
         imageStd: 127.5,
       );
       setState(() {
